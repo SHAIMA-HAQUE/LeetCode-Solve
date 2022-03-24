@@ -10,11 +10,19 @@ class Solution:
         # return False
         
         #Integer will always contain a single set bit
-        c = 0
-        while n>0:
-            c += 1
-            n = n & (n-1)
-        if c == 1:
+        # c = 0
+        # while n>0:
+        #     c += 1
+        #     n = n & (n-1)
+        # if c == 1:
+        #     return True
+        # else:
+        #     return False
+        
+        #also simply can check n & (n-1)
+        if n <= 0:
+            return False
+        if n&(n-1) == 0:
             return True
         else:
             return False
