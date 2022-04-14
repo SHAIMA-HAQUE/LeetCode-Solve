@@ -6,7 +6,7 @@ public:
             int ans = 0;
             int j = i;
             while(j>0){
-                j = j &(j -1);
+                j = j &(j -1); 
                 ans ++;
             }
             res.push_back(ans);
