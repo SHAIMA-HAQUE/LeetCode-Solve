@@ -1,4 +1,5 @@
-​class Solution {
+​```
+class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
         TreeNode* temp = root;
@@ -17,3 +18,4 @@ public:
         }
     }
 };
+```
